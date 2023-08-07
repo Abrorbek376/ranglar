@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: linear-gradient(
+        43deg,
+         #4158d0 40%,
+         #c850c0 46%
+        );
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(204, 204, 204, 0.5);
+    padding: 15px 25px;
+    border-radius: 10px;
+    user-select: none;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.container h1 {
+    font-weight: 500;
+}
